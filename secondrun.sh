@@ -15,5 +15,5 @@ sudo systemctl restart kubelet
 sudo sed -i -e 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/g' /etc/ssh/sshd_config
 sudo sed -i -e 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
 sudo service sshd restart
-echo -e "ubuntu\nubuntu" | sudo passwd ubuntu
-echo -e "ubuntu\nubuntu" | sudo passwd root
+sudo echo -e "ubuntu\nubuntu" | sudo passwd ubuntu
+sudo echo -e "ubuntu\nubuntu" | sudo passwd root
