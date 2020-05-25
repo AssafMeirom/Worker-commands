@@ -5,7 +5,6 @@ sudo sysctl -p
 sudo mkdir /data 
 sudo chmod  -R 777 /data
 sudo mkdir /bitnami
-sudo cd /bitnami
-sudo mkdir mariadb
-sudo mkdir wordpress
+sudo mkdir /bitnami/mariadb
+sudo mkdir /bitnami/wordpress
 sudo chmod -R 777 /bitnami/
