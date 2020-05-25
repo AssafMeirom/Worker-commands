@@ -1,5 +1,5 @@
 #!/bin/bash
-sh -x /home/ubuntu/yoni.sh
+sudo sh -x /home/ubuntu/yoni.sh
 sudo echo "net.bridge.bridge-nf-call-iptables=1" | sudo tee -a /etc/sysctl.conf
 sudo sysctl -p
 sudo mkdir /data 
